@@ -60,6 +60,7 @@ skills:
   - category: Software Skills
     tools:
     - Python
+    - Arduino IDE
     - Ubuntu
     - VMware
     - Robot Operating System (ROS)
