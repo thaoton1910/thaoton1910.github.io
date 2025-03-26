@@ -39,16 +39,17 @@ main-image: /project.jpg
 - **Mindfulness Suggestion System:** Plays corresponding audio recommendations based on detected emotional levels.
 
 **4. User Flow**
-{% include image-gallery.html images="user_flow.png" height="200" %} 
-- The user places their finger on the sensor.
-- The device measures heart rate and classifies emotional level.
-- The LCD displays the status.
-- If stress is detected (emotional status is not good), the MP3 module plays relaxation music.
+{% include image-gallery.html images="user_flow.png" height="400" %} 
     
 ## Visual Representations
-### Embeed images
-{% include image-gallery.html images="project2.jpg" height="400" %} 
-place the images in project folder/images then update the file path. 
+
+**1. Circuit of the product**
+{% include image-gallery.html images="circuit.jpg" height="400" %} 
+
+**2. 3D sketch design**
+{% include image-gallery.html images="1.jpg" height="300" %} 
+{% include image-gallery.html images="2.jpg" height="300" %} 
+{% include image-gallery.html images="3.png" height="300" %} 
 
 #### Results and Evaluation
 
