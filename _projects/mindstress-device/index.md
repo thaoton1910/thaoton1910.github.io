@@ -2,6 +2,7 @@
 layout: post
 title: MINDSTRESS Device
 description: The MINDSTRESS device is designed to address the growing need for affordable mental health monitoring solutions in Vietnam. Given the high prevalence of mental health issues, particularly among young individuals, this device aims to provide an accessible, cost-effective tool for detecting emotional stress and offering mindfulness practices to users.
+collaborators: Nguyen Yen Nhi, Le Thi Viet Anh
 skills: 
 - Embedded Systems Development
 - Sensor Integration & Signal Processing
