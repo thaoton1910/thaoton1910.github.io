@@ -2,7 +2,6 @@
 layout: post
 title: MINDSTRESS Device
 description: The MINDSTRESS device is designed to address the growing need for affordable mental health monitoring solutions in Vietnam. Given the high prevalence of mental health issues, particularly among young individuals, this device aims to provide an accessible, cost-effective tool for detecting emotional stress and offering mindfulness practices to users.
-collaborators: Nguyen Yen Nhi, Le Thi Viet Anh
 skills: 
 - Embedded Systems Development
 - Sensor Integration & Signal Processing
@@ -26,7 +25,7 @@ main-image: /project.jpg
 - **Privacy Protection:** Ensures user data remains confidential.
 
 ## **2. Technical Contributions**
-**Hardware Components**
+*Hardware Components*
 - Arduino Uno Compatible microcontroller
 - MAX30102 PPG Heart Rate and Oximeter Sensor (I2C/UART)
 - LCD Text Display (2004) with I2C Adapter
@@ -57,7 +56,6 @@ main-image: /project.jpg
 {% include image-gallery.html images="block_diagram.png" height="400" %}
 
 ## **5. Testing**
-*Example* : https://www.youtube.com/watch?v={**MhVw-MHGv4s**}&ab_channel=engineerguy
 - User 1
 {% include youtube-video.html id="rQ2yPGzgwn4" autoplay= "false"%}
 - User 2
@@ -78,3 +76,5 @@ The MINDSTRESS device successfully met its initial objectives by providing a fun
 - Refinement of software algorithms to improve accuracy.
 - Integration of wireless connectivity for data tracking.
 - Enhancements to the user interface for improved accessibility.
+
+*Collaborators: Nguyen Yen Nhi, Le Thi Viet Anh*
