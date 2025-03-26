@@ -35,10 +35,11 @@ main-image: /project.jpg
 - Enclosure made of mica material
 
 **3. Software Implementation**
-- Heart Rate Analysis Algorithm: Converts BPM into emotional status categories (Relaxed, Normal, Good, Not Good)
-- Mindfulness Suggestion System: Plays corresponding audio recommendations based on detected emotional levels.
+- **Heart Rate Analysis Algorithm:** Converts BPM into emotional status categories (Relaxed, Normal, Good, Not Good)
+- **Mindfulness Suggestion System:** Plays corresponding audio recommendations based on detected emotional levels.
 
 **4. User Flow**
+{% include image-gallery.html images="user_flow.png" height="200" %} 
 - The user places their finger on the sensor.
 - The device measures heart rate and classifies emotional level.
 - The LCD displays the status.
