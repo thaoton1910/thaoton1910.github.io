@@ -38,6 +38,7 @@ main-image: /project.jpg
 ## **3. Software Implementation**
 - **Heart Rate Analysis Algorithm:** Converts BPM into emotional status categories (Relaxed, Normal, Good, Not Good)
 - **Mindfulness Suggestion System:** Plays corresponding audio recommendations based on detected emotional levels. 
+
     
 # Visual Representations
 
@@ -55,6 +56,14 @@ main-image: /project.jpg
 ## **4. Block Diagram**
 {% include image-gallery.html images="block_diagram.png" height="400" %}
 
+## **5. Testing**
+*Example* : https://www.youtube.com/watch?v={**MhVw-MHGv4s**}&ab_channel=engineerguy
+- User 1
+{% include youtube-video.html id="rQ2yPGzgwn4" autoplay= "false"%}
+- User 2
+{% include youtube-video.html id="Kuk6izGT7W0" autoplay= "false"%}
+
+
 # Results and Evaluation
 
 The MINDSTRESS device successfully met its initial objectives by providing a functional prototype capable of detecting emotional stress and offering relaxation solutions.
@@ -62,6 +71,7 @@ The MINDSTRESS device successfully met its initial objectives by providing a fun
 - **Cost-effectiveness:** At an estimated production cost of 900,000-1,000,000 VND, it remains significantly cheaper than alternatives like Garmin and Apple smartwatches.
 - **Usability:** User tests demonstrated ease of use, though improvements such as a countdown timer for results were identified as future enhancements.
 - **Limitations:** The device is not suitable for individuals with high blood pressure or those who have recently exercised, as these factors may affect heart rate readings.
+
 
 # Future Improvements
 - Incorporation of additional biometric sensors for enhanced stress detection.
