@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MINDSTRESS Device
-description:  The MINDSTRESS device is designed to address the growing need for accessible mental health monitoring in Vietnam. With over 14 million Vietnamese requiring mental health services and limited affordable solutions, this project aims to develop an inexpensive, community-friendly device. The device detects a user's emotional status through heart rate monitoring and provides mindfulness-based relaxation techniques to improve well-being.
+description: The MINDSTRESS device is designed to address the growing need for affordable mental health monitoring solutions in Vietnam. Given the high prevalence of mental health issues, particularly among young individuals, this device aims to provide an accessible, cost-effective tool for detecting emotional stress and offering mindfulness practices to users.
 skills: 
 - Embedded Systems Development
 - Sensor Integration & Signal Processing
@@ -36,14 +36,11 @@ main-image: /project.jpg
 
 **3. Software Implementation**
 - **Heart Rate Analysis Algorithm:** Converts BPM into emotional status categories (Relaxed, Normal, Good, Not Good)
-- **Mindfulness Suggestion System:** Plays corresponding audio recommendations based on detected emotional levels.
-
-**4. User Flow**
-{% include image-gallery.html images="user_flow.png" height="400" %} 
+- **Mindfulness Suggestion System:** Plays corresponding audio recommendations based on detected emotional levels. 
     
 ## Visual Representations
 
-**1. Circuit of the product**
+**1. Electronics circuit diagram**
 {% include image-gallery.html images="circuit.jpg" height="400" %} 
 
 **2. 3D sketch design**
@@ -51,21 +48,22 @@ main-image: /project.jpg
 {% include image-gallery.html images="2.jpg" height="300" %} 
 {% include image-gallery.html images="3.png" height="300" %} 
 
+**3. User Flow**
+{% include image-gallery.html images="user_flow.png" height="400" %}
+
+**4. Block Diagram**
+{% include image-gallery.html images="block_diagram.png" height="400" %}
+
 #### Results and Evaluation
 
-**1. Prototype Testing**
-- Conducted tests with users to validate accuracy and effectiveness.
-- Verified that the heart rate sensor aligns with medical-grade measurements.
-  
-**2. Affordability**
-- Total material cost: 1,000,000 VND (~$40 USD)
-- Compared to alternatives (e.g., Apple Watch, Garmin) costing over 6,000,000 VND (~$240 USD), this device is significantly more accessible.
-  
-**3. Community Application**
-- Designed for placement in medical centers and health stations to serve multiple users.
-- Potential reach: 1.02 million units per year across Vietnam.
-  
-**4. Limitations and Future Improvements**
-- Accuracy Constraints: Users with high blood pressure or recent physical activity may receive inaccurate readings.
-- User Experience Enhancements: Implementing a mobile app interface for more personalized tracking.
-- Exploring additional physiological indicators (e.g., skin conductance, temperature) for stress detection.
+The MINDSTRESS device successfully met its initial objectives by providing a functional prototype capable of detecting emotional stress and offering relaxation solutions.
+- **Accuracy:** The heart rate sensor provided reliable readings comparable to standard calibration devices.
+- **Cost-effectiveness:** At an estimated production cost of 900,000-1,000,000 VND, it remains significantly cheaper than alternatives like Garmin and Apple smartwatches.
+- **Usability:** User tests demonstrated ease of use, though improvements such as a countdown timer for results were identified as future enhancements.
+- **Limitations:** The device is not suitable for individuals with high blood pressure or those who have recently exercised, as these factors may affect heart rate readings.
+
+##### Future Improvements
+- Incorporation of additional biometric sensors for enhanced stress detection.
+- Refinement of software algorithms to improve accuracy.
+- Integration of wireless connectivity for data tracking.
+- Enhancements to the user interface for improved accessibility.
